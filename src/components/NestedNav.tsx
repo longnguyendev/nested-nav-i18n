@@ -7,7 +7,6 @@ export function NestedNav() {
   const [checkedList, setCheckedList] = useState<string[]>([]);
 
   const handleClick = (title: string) => {
-    console.log({ title });
     setCheckedList((prev) => {
       if (prev.includes(title)) {
         return prev.filter((item) => item !== title);
