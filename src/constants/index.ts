@@ -7,6 +7,9 @@ export const LANGUAGES = [
 
 export const MENU_WITH = 400;
 
+export const BASE_URL =
+  import.meta.env.VITE_BASE_URL || "http://localhost:5173";
+
 export const navItems: Navigation = [
   {
     title: "home",
